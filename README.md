@@ -2,7 +2,7 @@
 
 **Solve [Leetcode](https://leetcode.com/) problem via emacs**
 
-[screenshot](https://raw.githubusercontent.com/twoyao/laes/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/twoyao/laes/master/screenshot.png)
 
 ## Install & Setup
 
