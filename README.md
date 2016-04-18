@@ -25,6 +25,7 @@ Currently, `lc-perfer-lang` can be one of following:
 ## Usage
 
 `M-x leetcode-list` display leetcode problem list.
+
 `M-x leetcode-submit` submit current buffer as solution to leetcode.
 
 ## dependencies
