@@ -2,6 +2,8 @@
 
 **Solve [Leetcode](https://leetcode.com/) problem via emacs**
 
+[screenshot](https://raw.githubusercontent.com/twoyao/laes/master/screenshot.png)
+
 ## Install & Setup
 
 Just download and put`leetcode.el` to your `load-path` and add following to you .emacs
