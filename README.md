@@ -6,7 +6,7 @@
 
 ## Install & Setup
 
-Just download and put`leetcode.el` to your `load-path` and add following to you .emacs
+Just download and put`leetcode.el` to your `load-path` and add following to your .emacs
 ``` lisp
 (require 'leetcode)
 (setq lc-user-name-email "your-leetcode-name-or-email")
