@@ -30,5 +30,5 @@ Currently, `lc-perfer-lang` can be one of following:
 
 `M-x leetcode-submit` submit current buffer as solution to leetcode.
 
-## dependencies
+## Dependencies
 - [request](https://github.com/tkf/emacs-request)
