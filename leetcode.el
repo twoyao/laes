@@ -182,7 +182,6 @@
   (leetcode-menu--action (next-button (line-beginning-position))))
 
 (defun leetcode-menu--parser ()
-  (setq tempv (buffer-string))
   (let*  ((problem-list
 	   (xml-get-by-attr (libxml-parse-html-region (point-min) (point-max)) 'id "problemList"))
 	  (tbody (xml-get-children-chain problem-list "tbody"))
