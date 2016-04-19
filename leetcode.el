@@ -67,7 +67,7 @@
   (setq lc-lang-config
 	(nth 1 (assoc lang
 		      '(("cpp" (:buffer-postfix ".cpp"
-				:comment-start "/**"
+				:block-comment-start "/**"
 				:block-comment-end "*/"))
 			("java" (:buffer-postfix ".java"
  				 :block-comment-start "/**"
@@ -178,7 +178,6 @@
 
 (defun leetcode-menu--entry-action ()
   (interactive)
-  (print (next-button (line-beginning-position)))
   (leetcode-menu--action (next-button (line-beginning-position))))
 
 (defun leetcode-menu--parser ()
@@ -222,9 +221,10 @@
   (leetcode-cookie-val "PHPSESSID"))
 
 (defun leetcode-fetch-menu (&rest _)
+  (message "login success, fetching problem list...")
   (lc-set-lang-config lc-perfer-lang)
   (with-current-buffer (get-buffer-create "*Leetcode*")
-     (leetcode-menu-mode)
+    (leetcode-menu-mode)
     (tabulated-list-init-header)    
     (request (concat lc-site-prefix "/problemset/algorithms/")
 	     :headers (lc-request-header)
