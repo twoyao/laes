@@ -9,7 +9,7 @@
 ;;; Commentary:
 
 ;; Emacs is nice, so does leetcode. Let's combine them together.
-;; Using emacs to sove and submit leetcode problem.
+;; Using emacs to solve and submit leetcode problem.
 
 ;; To setup this package, just add to you .emacs
 ;;
