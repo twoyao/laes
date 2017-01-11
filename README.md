@@ -1,5 +1,7 @@
 # laes
 
+**THIS PLUGIN WILL NOT WORK PROPERLY DUE TO LEETCODE API HAS CHANGED** 
+
 **Solve [Leetcode](https://leetcode.com/) problem via emacs**
 
 ![screenshot](https://raw.githubusercontent.com/twoyao/laes/master/screenshot.png)
